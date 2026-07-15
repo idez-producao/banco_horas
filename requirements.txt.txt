@@ -1,4 +1,2 @@
 pandas
 plotly
-datetime
-plotly.express
