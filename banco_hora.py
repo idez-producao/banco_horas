@@ -39,6 +39,8 @@ def grafico_ano(df,nome):
         x= 'index',
         y= nome,
         color = 'status',
+        height=320,
+        width=200,
         title= f'TOTAL = {a} minutos || {a_hora} horas e {a_min} minutos',
         text_auto= nome, # Adiciona o valor em cima das barras de forma resumida
         # MAPEAMENTO MANUAL DE CORES (O segredo!)
@@ -97,6 +99,8 @@ def grafico_mes(df,nome):
         x= 'index',
         y= nome,
         color = 'status',
+        height=320,
+        width=200,
         title= f'TOTAL 2026 = {b} minutos || {b_hora} horas e {b_min} minutos',
         text_auto= nome, # Adiciona o valor em cima das barras de forma resumida
         # MAPEAMENTO MANUAL DE CORES (O segredo!)
@@ -132,6 +136,7 @@ def grafico_mes(df,nome):
 ############################################################################
 ############################################################################
 #inicio da pagina de navegacao
+st.set_page_config(layout="wide")
 st.markdown("#### Banco de Horas")
 
 #barra lateal
