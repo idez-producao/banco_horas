@@ -1,2 +1,2 @@
+plotly==6.2.0
 pandas
-plotly
