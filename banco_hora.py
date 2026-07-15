@@ -136,7 +136,7 @@ def grafico_mes(df,nome):
 ############################################################################
 ############################################################################
 #inicio da pagina de navegacao
-st.set_page_config(layout="wide")
+#st.set_page_config(layout="wide")
 st.markdown("#### Banco de Horas")
 
 #barra lateal
