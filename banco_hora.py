@@ -41,7 +41,7 @@ def grafico_ano(df,nome):
         color = 'status',
         height=320,
         width=700,
-        title= f'TOTAL = {a} minutos || {a_hora} horas e {a_min} minutos',
+        title= f'TOTAL = {a} minutos ||', #'{a_hora} horas e {a_min} minutos',
         text_auto= nome, # Adiciona o valor em cima das barras de forma resumida
         # MAPEAMENTO MANUAL DE CORES (O segredo!)
         color_discrete_map={
@@ -108,7 +108,7 @@ def grafico_mes(df,nome):
         color = 'status',
         height=320,
         width=700,
-        title= f'TOTAL 2026 = {b} minutos || {b_hora} horas e {b_min} minutos',
+        title= f'TOTAL 2026 = {b} minutos ||', #'{b_hora} horas e {b_min} minutos',
         text_auto= nome, # Adiciona o valor em cima das barras de forma resumida
         # MAPEAMENTO MANUAL DE CORES (O segredo!)
         color_discrete_map={
