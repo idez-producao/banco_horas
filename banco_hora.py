@@ -40,7 +40,7 @@ def grafico_ano(df,nome):
         y= nome,
         color = 'status',
         height=320,
-        width=200,
+        width=700,
         title= f'TOTAL = {a} minutos || {a_hora} horas e {a_min} minutos',
         text_auto= nome, # Adiciona o valor em cima das barras de forma resumida
         # MAPEAMENTO MANUAL DE CORES (O segredo!)
@@ -67,6 +67,13 @@ def grafico_ano(df,nome):
 
         # 2. Muda a cor de toda a área externa (Ex: Branco puro)
         paper_bgcolor="#04458F"
+    )
+
+    #aumentando os tamanho do texto nos valores das barras
+    fig.update_traces(
+        textfont_size=15,
+        #textfont_color='#b22222',
+        textposition='auto',
     )
     return fig
     #fig.show()    
@@ -100,7 +107,7 @@ def grafico_mes(df,nome):
         y= nome,
         color = 'status',
         height=320,
-        width=200,
+        width=700,
         title= f'TOTAL 2026 = {b} minutos || {b_hora} horas e {b_min} minutos',
         text_auto= nome, # Adiciona o valor em cima das barras de forma resumida
         # MAPEAMENTO MANUAL DE CORES (O segredo!)
@@ -129,6 +136,12 @@ def grafico_mes(df,nome):
         paper_bgcolor="#04458F"
     )
 
+    #aumentando os tamanho do texto nos valores das barras
+    fig.update_traces(
+        textfont_size=15,
+        #textfont_color='#b22222',
+        textposition='auto',
+    )
     #fig.show()
     return fig
 
