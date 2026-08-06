@@ -153,8 +153,8 @@ elif funcionario == "adriano":
     senha = st.text_input("Sua Senha: ")
 
     if senha == senha_global() or senha == "0107":
-        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=True)
-        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=True)
+        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=False)
+        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=False)
         
     else:
         st.write("Tente Novamente!")
@@ -164,8 +164,8 @@ elif funcionario == "elionay":
     senha = st.text_input("Sua Senha: ")
 
     if senha == senha_global() or senha == "1234":
-        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=True)
-        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=True)
+        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=False)
+        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=False)
         
     else:
         st.write("Tente Novamente!")
@@ -175,8 +175,8 @@ elif funcionario == "fernando":
     senha = st.text_input("Sua Senha: ")
 
     if senha == senha_global() or senha == "2602":
-        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=True)
-        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=True)
+        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=False)
+        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=False)
         
     else:
         st.write("Tente Novamente!")
@@ -186,8 +186,8 @@ elif funcionario == "inacio":
     senha = st.text_input("Sua Senha: ")
 
     if senha == senha_global() or senha == "1234":
-        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=True)
-        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=True)
+        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=False)
+        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=False)
         
     else:
         st.write("Tente Novamente!")
@@ -197,8 +197,8 @@ elif funcionario == "joao":
     senha = st.text_input("Sua Senha: ")
 
     if senha == senha_global() or senha == "0407":
-        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=True)
-        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=True)
+        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=False)
+        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=False)
         
     else:
         st.write("Tente Novamente!")
@@ -207,9 +207,9 @@ elif funcionario == "manuel":
     st.write("A senha é o dia e o mês do seu aniversario!")
     senha = st.text_input("Sua Senha: ")
 
-    if senha == senha_global() or senha == "1234":
-        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=True)
-        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=True)
+    if senha == senha_global() or senha == "3105":
+        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=False)
+        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=False)
         
     else:
         st.write("Tente Novamente!")
@@ -219,8 +219,8 @@ elif funcionario == "rodrigo":
     senha = st.text_input("Sua Senha: ")
 
     if senha == senha_global() or senha == "1902":
-        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=True)
-        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=True)
+        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=False)
+        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=False)
         
     else:
         st.write("Tente Novamente!")
@@ -230,8 +230,8 @@ elif funcionario == "samuel":
     senha = st.text_input("Sua Senha: ")
 
     if senha == senha_global() or senha == "1306":
-        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=True)
-        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=True)
+        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=False)
+        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=False)
         
     else:
         st.write("Tente Novamente!")
@@ -241,8 +241,8 @@ elif funcionario == "thiago":
     senha = st.text_input("Sua Senha: ")
 
     if senha == senha_global() or senha == "2105":
-        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=True)
-        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=True)
+        st.plotly_chart(grafico_ano(df,funcionario),use_container_width=False)
+        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=False)
         
     else:
         st.write("Tente Novamente!")
@@ -252,8 +252,8 @@ elif funcionario == "toin":
     senha = st.text_input("Sua Senha: ")
 
     if senha == senha_global() or senha == "0809":
-        st.plotly_chart(grafico_ano(df,funcionario), use_container_width=True)
-        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=True)
+        st.plotly_chart(grafico_ano(df,funcionario), use_container_width=False)
+        st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=False)
         
     else:
         st.write("Tente Novamente!")
