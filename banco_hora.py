@@ -84,7 +84,7 @@ def grafico_mes(df,nome):
     df_nome_atual = df_atual[df_atual['nome']== nome].copy()
     
     #somando os valores na linha do nome selecionado
-    b = df_nome_atual[['1','2','3','4','5','6']].sum(axis=1).values[0]
+    b = df_nome_atual[['1','2','3','4','5','6','7']].sum(axis=1).values[0]
     #transformando os minutos em horas e minutos
     b_hora = b//60
     b_min = b%60
