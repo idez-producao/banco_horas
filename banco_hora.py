@@ -198,7 +198,7 @@ elif funcionario == "inacio":
     st.write("A senha é o dia e o mês do seu aniversario!")
     senha = st.text_input("Sua Senha: ")
 
-    if senha == senha_global() or senha == "1234":
+    if senha == senha_global() or senha == "3009":
         st.plotly_chart(grafico_ano(df,funcionario),use_container_width=False)
         st.plotly_chart(grafico_mes(df_atual,funcionario),use_container_width=False)
         
